@@ -25,6 +25,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Test"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="83dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="577dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="366dp"
+        android:layout_height="388dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_home"
+        app:layout_constraintStart_toStartOf="@+id/text_home"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
 </androidx.constraintlayout.widget.ConstraintLayout>
