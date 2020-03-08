@@ -36,7 +36,7 @@ public class HomeFragment extends Fragment {
         });
         return root;
     }
-    public void testMethod(View v){
-        startActivity(new Intent(HomeFragment.this.getActivity(), MainActivity.class));
+    public void toHouseManager(View v){
+        startActivity(new Intent(HomeFragment.this.getActivity(), HouseManager.class));
     }
 }
