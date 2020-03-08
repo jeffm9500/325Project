@@ -22,5 +22,8 @@ public class activity_calendar extends AppCompatActivity {
     public void toHouseManager(View v){
         startActivity(new Intent(this, HouseManager.class));
     }
+    public void toMain(View v){
+        startActivity(new Intent(this, MainActivity.class));
+    }
 
 }
