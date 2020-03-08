@@ -1,49 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:id="@+id/choreLayout"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_centerHorizontal="true"
-android:layout_centerVertical="true"
-android:layout_marginLeft="30dp"
-android:layout_marginTop="300dp"
-android:layout_marginRight="30dp"
-android:layout_weight="1"
-android:background="#3903A9F4"
-android:gravity="center_vertical|center_horizontal|center"
-tools:context=".new_chore_activity">
-
-<Button
-    android:layout_width="96dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/choreLayout"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_below="@id/times"
-    android:layout_alignParentEnd="true"
-    android:text="@string/done" />
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="300dp"
+    android:layout_marginRight="30dp"
+    android:layout_weight="1"
+    android:background="#3903A9F4"
+    android:gravity="center_vertical|center_horizontal|center"
+    android:paddingBottom="60"
+    tools:context=".new_chore_activity">
 
-<EditText
-    android:id="@+id/name"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:autofillHints=""
-    android:hint="@string/insert_chore_name" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55"
+        android:layout_marginTop="75"
+        android:layout_marginRight="18"
+        android:text="DESCRIPTION:" />
 
-<Spinner
-    android:id="@id/times"
-    android:layout_width="96dp"
-    android:layout_height="wrap_content"
-    android:layout_below="@id/name"
-    android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100"
+        android:layout_marginTop="150"
+        android:layout_marginRight="18"
+        android:text="TYPE:" />
 
-<Spinner
-    android:id="@+id/dates"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_below="@id/name"
-    android:layout_alignParentLeft="true"
-    android:layout_toLeftOf="@+id/times" />
+    <Button
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="165dp"
+        android:text="@string/done" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="149"
+        android:layout_marginTop="35"
+        android:layout_marginRight="35dp"
+        android:autofillHints=""
+        android:backgroundTint="#FFFFFF"
+        android:hint="@string/insert_chore_name"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/name3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="149"
+        android:layout_marginTop="65"
+        android:layout_marginRight="18"
+        android:autofillHints=""
+        android:backgroundTint="#FFFFFF"
+        android:hint="Enter description of the chore here."
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65"
+        android:layout_marginTop="43"
+        android:layout_marginRight="35dp"
+        android:text="TASK NAME:" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20"
+        android:layout_marginTop="10"
+        android:layout_marginRight="18"
+        android:text="NEW TASK"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
