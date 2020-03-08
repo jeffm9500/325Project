@@ -21,10 +21,10 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="reminder">reminder</string>
-    <string name="done">done</string>
-    <string name="insert_chore_name">Enter chore name</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="yours">Yours</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all">All</string>
 </resources>
