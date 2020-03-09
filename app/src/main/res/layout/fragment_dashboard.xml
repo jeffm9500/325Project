@@ -22,18 +22,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.81" />
 
-    <Button
-        android:id="@+id/newChoreDoneBtn"
-        android:layout_width="145dp"
-        android:layout_height="47dp"
-        android:text="Yours"
-        app:layout_constraintBottom_toTopOf="@+id/chores"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.656" />
-
     <TableLayout
         android:id="@+id/chores"
         android:layout_width="394dp"

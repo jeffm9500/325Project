@@ -34,5 +34,8 @@ public class MainActivity extends AppCompatActivity {
     public void toCalendar(View v){
         startActivity(new Intent(this, activity_calendar.class));
     }
+    public void toAll(View v){
+        startActivity(new Intent(this, main_all.class));
+    }
 
 }
