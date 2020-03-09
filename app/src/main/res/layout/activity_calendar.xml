@@ -6,6 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".activity_calendar">
 
-    <include layout="@layout/content_activity_calendar" />
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_activity_calendar"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

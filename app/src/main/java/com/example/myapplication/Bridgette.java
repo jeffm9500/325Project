@@ -11,18 +11,17 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
 
-public class HouseManager extends AppCompatActivity {
+public class Bridgette extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_house_manager);
+        setContentView(R.layout.activity_bridgette);
+
     }
 
-    public void toMain(View v){
-        startActivity(new Intent(this, MainActivity.class));
+    public void toHouseManager(View v){
+        startActivity(new Intent(this, HouseManager.class));
     }
-    public void toBridgette(View v){
-        startActivity(new Intent(this, Bridgette.class));
-    }
+
 }

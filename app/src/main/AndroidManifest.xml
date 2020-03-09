@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Bridgette"
+            android:label="@string/title_activity_bridgette"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".activity_calendar"
             android:label="@string/title_activity_calendar"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".new_chore_activity"
             android:label="NewChore" />
@@ -31,7 +35,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name" />
     </application>
 
 </manifest>
