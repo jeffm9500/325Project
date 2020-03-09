@@ -18,7 +18,7 @@
     tools:context=".new_chore_activity">
 
     <Button
-        android:id="@+id/newChoreDoneBtn"
+        android:id="@+id/swapToAllBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -106,7 +106,7 @@
         android:text="DESCRIPTION:" />
 
     <TextView
-        android:id="@+id/TaskNameText"
+        android:id="@+id/choreName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/HouseID"

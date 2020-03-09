@@ -140,7 +140,7 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/TaskNameText"
+                android:id="@+id/choreName2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
@@ -148,7 +148,7 @@
                 android:text="Clean Kitchen" />
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/choreComplete2"
                 android:layout_width="107dp"
                 android:layout_height="wrap_content"
                 android:clickable="true"
@@ -156,7 +156,7 @@
                 android:text="Complete" />
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/choreDue2"
                 android:layout_width="131dp"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -174,7 +174,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView22"
+                android:id="@+id/choreName3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
@@ -182,7 +182,7 @@
                 android:text="Pay Utilities" />
 
             <CheckBox
-                android:id="@+id/checkBox3"
+                android:id="@+id/choreComplete3"
                 android:layout_width="53dp"
                 android:layout_height="wrap_content"
                 android:clickable="true"
@@ -190,7 +190,7 @@
                 android:text="Complete" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/choreDue3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -208,7 +208,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView23"
+                android:id="@+id/choreName4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
@@ -216,7 +216,7 @@
                 android:text="Put Out Trash" />
 
             <CheckBox
-                android:id="@+id/checkBox4"
+                android:id="@+id/choreComplete4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
@@ -224,7 +224,7 @@
                 android:text="Complete" />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/choreDue4"
                 android:layout_width="134dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -241,7 +241,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView24"
+                android:id="@+id/choreName5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
@@ -249,7 +249,7 @@
                 android:text="Take Out Compost" />
 
             <CheckBox
-                android:id="@+id/checkBox5"
+                android:id="@+id/choreComplete5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
@@ -257,7 +257,7 @@
                 android:text="Complete" />
 
             <EditText
-                android:id="@+id/editText5"
+                android:id="@+id/choreDue5"
                 android:layout_width="123dp"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -270,4 +270,16 @@
         </TableRow>
     </TableLayout>
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="142dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="104dp"
+        android:text="@string/all"
+        app:layout_constraintBottom_toTopOf="@+id/chores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
