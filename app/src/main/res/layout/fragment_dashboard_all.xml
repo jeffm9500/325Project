@@ -35,7 +35,7 @@
         <TableRow
             android:id="@+id/chore7"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/textView14"
@@ -69,7 +69,7 @@
         <TableRow
             android:id="@+id/chore6"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/TaskTypeText"
@@ -103,7 +103,7 @@
         <TableRow
             android:id="@+id/chore1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/textView"

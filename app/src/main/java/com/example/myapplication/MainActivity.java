@@ -37,6 +37,12 @@ public class MainActivity extends AppCompatActivity {
     public void toAll(View v){
         startActivity(new Intent(this, main_all.class));
     }
+    public void toNewChore(View v){
+        startActivity(new Intent(this, new_task.class));
+    }
+    public void toFinishNewChore(View v){
+        startActivity(new Intent(this, main_all.class));
+    }
 
 
 }
