@@ -44,7 +44,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/choreDue4"
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_alignTop="@id/Password"
