@@ -43,4 +43,12 @@
     <string name="due">Due</string>
     <string name="title_activity_bridgette">Bridgette</string>
     <string name="title_activity_main_all">main_all</string>
+
+
+    <string-array name="frequency_array">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Bi-Weekly</item>
+        <item>Monthly</item>
+    </string-array>
 </resources>

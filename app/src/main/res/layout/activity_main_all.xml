@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         android:focusable="true"
+        android:onClick="toCreateNewTask"
         android:src="@android:drawable/ic_menu_add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +24,7 @@
         app:layout_constraintVertical_bias="0.81" />
 
     <TableLayout
-        android:id="@+id/chores"
+        android:id="@+id/choresYours"
         android:layout_width="394dp"
         android:layout_height="360dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -271,7 +272,7 @@
     </TableLayout>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/swapToYoursBtn"
         android:layout_width="72dp"
         android:layout_height="68dp"
         android:layout_marginStart="144dp"

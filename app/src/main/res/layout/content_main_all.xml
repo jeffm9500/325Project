@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.81" />
 
     <TableLayout
-        android:id="@+id/chores"
+        android:id="@+id/choresYours"
         android:layout_width="394dp"
         android:layout_height="360dp"
         app:layout_constraintBottom_toBottomOf="parent"

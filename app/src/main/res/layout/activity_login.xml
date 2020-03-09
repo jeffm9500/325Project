@@ -33,18 +33,18 @@
             android:id="@+id/UsernameInput"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@id/editText4"
+            android:layout_alignStart="@id/PasswordInput"
             android:layout_alignTop="@id/Username"
-            android:layout_alignEnd="@id/editText4"
             android:layout_marginBottom="20dp"
             android:layout_toEndOf="@id/Username"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/enter_username"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            tools:layout_alignEnd="@id/PasswordInput" />
 
         <EditText
-            android:id="@+id/choreDue4"
+            android:id="@+id/PasswordInput"
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_alignTop="@id/Password"
@@ -64,11 +64,12 @@
             android:layout_height="wrap_content"
             android:layout_alignStart="@id/UsernameInput"
             android:layout_alignTop="@id/HouseID"
-            android:layout_alignEnd="@id/editText4"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/enter_house_id"
             android:inputType="textPersonName"
+            tools:layout_alignEnd="@id/PasswordInput"
+            tools:layout_alignStart="@id/PasswordInput"
             tools:shadowColor="#72E1D8D8" />
 
         <TextView

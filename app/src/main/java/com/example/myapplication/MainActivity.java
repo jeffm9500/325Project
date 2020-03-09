@@ -38,4 +38,5 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, main_all.class));
     }
 
+
 }

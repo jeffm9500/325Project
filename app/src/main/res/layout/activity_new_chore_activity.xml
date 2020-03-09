@@ -18,6 +18,31 @@
     android:paddingBottom="60dp"
     tools:context=".new_chore_activity">
 
+    <EditText
+        android:id="@+id/dateInput"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/DescriptionInput"
+        android:layout_alignTop="@id/dateText"
+        android:autofillHints=""
+        android:backgroundTint="#FFFFFF"
+        android:hint="When?"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        tools:layout_alignEnd="@id/taskNameInput"
+        tools:layout_below="@id/DescriptionInput" />
+
+    <Spinner
+        android:id="@+id/frequencySelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/DescriptionInput"
+        android:layout_alignTop="@id/FrequencyText"
+        android:layout_alignEnd="@id/DescriptionInput"
+        android:contextClickable="true"
+        android:entries="@array/frequency_array" />
+
     <Button
         android:id="@+id/swapToAllBtn"
         android:layout_width="wrap_content"
@@ -30,20 +55,21 @@
         android:layout_marginTop="190dp"
         android:layout_marginEnd="130dp"
         android:layout_marginBottom="30dp"
+        android:onClick="toFinishNewTask"
         android:text="@string/done" />
 
     <EditText
         android:id="@+id/DescriptionInput"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="61dp"
         android:layout_below="@id/taskNameInput"
-        android:layout_alignStart="@id/taskNameInput"
-        android:layout_alignTop="@id/Username"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="40dp"
+        android:layout_alignTop="@id/Description"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@id/Description"
         android:autofillHints=""
         android:backgroundTint="#FFFFFF"
-        android:hint="Enter description of the chore here."
+        android:hint="@string/insert_chore_description"
         android:inputType="textShortMessage"
         android:textColor="#FFFFFF"
         android:textSize="12sp" />
@@ -54,14 +80,13 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@id/DescriptionInput"
         android:layout_alignTop="@id/TaskTypeText"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="40dp"
         android:autofillHints=""
         android:backgroundTint="#FFFFFF"
         android:hint="Group or Individual?"
         android:inputType="textShortMessage"
         android:textColor="#FFFFFF"
         android:textSize="12sp"
+        tools:layout_alignEnd="@id/taskNameInput"
         tools:layout_below="@id/DescriptionInput" />
 
     <EditText
@@ -70,40 +95,38 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@id/DescriptionInput"
         android:layout_alignTop="@id/AssigneeText"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="40dp"
         android:autofillHints=""
         android:backgroundTint="#FFFFFF"
         android:hint="Who's task is it?"
         android:inputType="textShortMessage"
         android:textColor="#FFFFFF"
         android:textSize="12sp"
+        tools:layout_alignEnd="@id/taskNameInput"
         tools:layout_below="@id/DescriptionInput" />
 
     <EditText
         android:id="@+id/taskNameInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@id/TaskNameText"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="40dp"
-        android:layout_toEndOf="@id/TaskNameText"
+        android:layout_alignStart="@id/DescriptionInput"
+        android:layout_alignTop="@id/choreName2"
+        android:layout_marginEnd="20dp"
         android:autofillHints=""
         android:backgroundTint="#FFFFFF"
         android:hint="@string/insert_chore_name"
         android:inputType="textShortMessage"
         android:textColor="#FFFFFF"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        tools:layout_toEndOf="@id/choreName2" />
 
     <TextView
-        android:id="@+id/Username"
+        android:id="@+id/Description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/TaskNameText"
+        android:layout_below="@id/choreName2"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
-        android:layout_marginRight="18dp"
         android:text="DESCRIPTION:" />
 
     <TextView
@@ -112,9 +135,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/HouseID"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="20dp"
         android:layout_marginLeft="65dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="35dp"
         android:text="TASK NAME:" />
 
@@ -133,10 +156,10 @@
         android:id="@+id/TaskTypeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/Username"
+        android:layout_below="@id/Description"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
         android:text="TYPE:" />
 
     <TextView
@@ -145,9 +168,29 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/TaskTypeText"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:text="ASSIGNEE:" />
+
+    <TextView
+        android:id="@+id/FrequencyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AssigneeText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="FREQUENCY:" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FrequencyText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="DATE:" />
 
 
 </RelativeLayout>
