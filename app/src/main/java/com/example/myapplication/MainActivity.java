@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
     public void toFinishNewChore(View v){
         startActivity(new Intent(this, main_all.class));
     }
+    public void toProfile(View v){
+        startActivity(new Intent(this, profile.class));
+    }
 
 
 }

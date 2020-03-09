@@ -301,4 +301,13 @@
         android:onClick="toCalendar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="93dp"
+        android:layout_height="66dp"
+        android:background="#00FFFFFF"
+        android:onClick="toProfile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

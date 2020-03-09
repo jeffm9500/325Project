@@ -54,7 +54,7 @@
         android:layout_marginTop="190dp"
         android:layout_marginEnd="130dp"
         android:layout_marginBottom="30dp"
-        android:onClick="toFinishNewChore"
+        android:onClick="toMain"
         android:text="@string/done" />
 
     <EditText

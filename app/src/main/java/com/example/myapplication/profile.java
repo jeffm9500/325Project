@@ -2,7 +2,9 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class profile extends AppCompatActivity {
 
@@ -11,4 +13,5 @@ public class profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
     }
+    public void toMain(View v) {startActivity(new Intent(this, MainActivity.class));}
 }

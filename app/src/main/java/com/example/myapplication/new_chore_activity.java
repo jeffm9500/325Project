@@ -14,6 +14,7 @@ public class new_chore_activity extends AppCompatActivity {
         setContentView(R.layout.activity_new_chore_activity);
     }
 
-    public void toFinishNewTask(View v) {startActivity(new Intent(this, MainActivity.class));}
-
+    public void toMain(View v) {
+        startActivity(new Intent(this, MainActivity.class));
+    }
 }

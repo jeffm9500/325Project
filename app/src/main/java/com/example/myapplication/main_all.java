@@ -34,5 +34,8 @@ public class main_all extends AppCompatActivity {
     public void toFinishNewChore(View v){
         startActivity(new Intent(this, MainActivity.class));
     }
+    public void toProfile(View v){
+        startActivity(new Intent(this, profile.class));
+    }
 
 }

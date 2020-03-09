@@ -7,4 +7,12 @@
     android:background="@drawable/profile"
     tools:context=".profile">
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="87dp"
+        android:layout_height="66dp"
+        android:background="#00FFFFFF"
+        android:onClick="toMain"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
