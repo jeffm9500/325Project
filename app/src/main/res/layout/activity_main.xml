@@ -24,8 +24,8 @@
 
     <TableLayout
         android:id="@+id/chores"
-        android:layout_width="394dp"
-        android:layout_height="360dp"
+        android:layout_width="363dp"
+        android:layout_height="355dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +65,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="@string/due"
+                android:text="2 hours left"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -99,7 +99,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="@string/due"
+                android:text="1 day left"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -133,7 +133,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="@string/due"
+                android:text="6 days left"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -167,7 +167,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="@string/due"
+                android:text="6 days left"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
