@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/homeyou">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/addTask3"
+        android:id="@+id/addTask4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
         android:focusable="true"
-        android:onClick="toNewChore"
         android:src="@android:drawable/ic_menu_add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,9 +30,106 @@
         app:layout_constraintVertical_bias="0.473">
 
         <TableRow
+            android:id="@+id/chore7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Wash Dishes" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Complete" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="date"
+                android:text="Due"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/chore6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/TaskTypeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Clean Bathroom" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Complete" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="date"
+                android:text="Due"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
             android:id="@+id/chore1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Wash Floors" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Complete" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="date"
+                android:text="Due"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </TableRow>
 
         <TableRow
             android:id="@+id/chore2"
@@ -56,7 +150,7 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="@string/complete" />
+                android:text="Complete" />
 
             <EditText
                 android:id="@+id/editText2"
@@ -65,7 +159,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="@string/due"
+                android:text="Due"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -86,11 +180,11 @@
 
             <CheckBox
                 android:id="@+id/checkBox3"
-                android:layout_width="wrap_content"
+                android:layout_width="53dp"
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="@string/complete" />
+                android:text="Complete" />
 
             <EditText
                 android:id="@+id/editText3"
@@ -99,7 +193,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="@string/due"
+                android:text="Due"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -124,16 +218,15 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="@string/complete" />
+                android:text="Complete" />
 
             <EditText
                 android:id="@+id/editText4"
                 android:layout_width="134dp"
                 android:layout_height="wrap_content"
-                android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="@string/due"
+                android:text="Due"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -158,7 +251,7 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="@string/complete" />
+                android:text="Complete" />
 
             <EditText
                 android:id="@+id/editText5"
@@ -167,42 +260,10 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="@string/due"
+                android:text="Due"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
         </TableRow>
     </TableLayout>
-
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="88dp"
-        android:layout_height="55dp"
-        android:background="#00FFFFFF"
-        android:onClick="toHouseManager"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="63dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="112dp"
-        android:layout_marginBottom="16dp"
-        android:background="#00FFFFFF"
-        android:onClick="toCalendar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="65dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="92dp"
-        android:layout_marginEnd="120dp"
-        android:background="#00FFFFFF"
-        android:onClick="toAll"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
