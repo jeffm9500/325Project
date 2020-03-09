@@ -27,9 +27,18 @@
     <string name="insert_chore_name">Insert Chore Name</string>
     <string name="insert_chore_description">Description of chore</string>
     <string name="new_task_heading">NEW TASK</string>
+    <string name="sign_in">Sign In</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="all">All</string>
     <string name="title_activity_calendar">activity_calendar</string>
+    <string name="houseid">HouseID:</string>
+    <string name="password">Password:</string>
+    <string name="user">User:</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_house_id">Enter House ID</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="complete">Complete</string>
+    <string name="due">Due</string>
 </resources>

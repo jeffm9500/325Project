@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="Complete" />
+                android:text="@string/complete" />
 
             <EditText
                 android:id="@+id/editText2"
@@ -75,7 +75,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="Due"
+                android:text="@string/due"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -100,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="Complete" />
+                android:text="@string/complete" />
 
             <EditText
                 android:id="@+id/editText3"
@@ -109,7 +109,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="Due"
+                android:text="@string/due"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -134,15 +134,16 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="Complete" />
+                android:text="@string/complete" />
 
             <EditText
                 android:id="@+id/editText4"
                 android:layout_width="134dp"
                 android:layout_height="wrap_content"
+                android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="Due"
+                android:text="@string/due"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -167,7 +168,7 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="Complete" />
+                android:text="@string/complete" />
 
             <EditText
                 android:id="@+id/editText5"
@@ -176,7 +177,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="Due"
+                android:text="@string/due"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
