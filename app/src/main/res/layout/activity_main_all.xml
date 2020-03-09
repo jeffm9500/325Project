@@ -61,7 +61,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="Due"
+                android:text="March 17, 2020"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -95,7 +95,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="Due"
+                android:text="March 20, 2020"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -129,7 +129,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="Due"
+                android:text="March 25, 2020"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -163,7 +163,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="Due"
+                android:text="March 25, 2020"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -197,7 +197,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="Due"
+                android:text="March 26, 2020"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -230,7 +230,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="date"
-                android:text="Due"
+                android:text="March 28, 2020"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
@@ -264,7 +264,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="date"
-                android:text="Due"
+                android:text="April 1, 2020"
                 android:textAlignment="center"
                 android:textSize="14sp" />
 
