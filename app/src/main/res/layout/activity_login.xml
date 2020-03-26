@@ -79,6 +79,7 @@
             android:layout_below="@id/Password"
             android:layout_alignStart="@id/Password"
             android:layout_marginTop="24dp"
+            android:textColor="#FFFFFF"
             android:text="@string/houseid"
             android:textSize="28sp" />
 
@@ -90,6 +91,7 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="30dp"
             android:layout_marginTop="-300dp"
+            android:textColor="#FFFFFF"
             android:text="@string/user"
             android:textSize="28sp" />
 
@@ -100,6 +102,7 @@
             android:layout_below="@id/Username"
             android:layout_alignStart="@id/Username"
             android:layout_marginTop="24dp"
+            android:textColor="#FFFFFF"
             android:text="@string/password"
             android:textSize="28sp" />
     </RelativeLayout>
