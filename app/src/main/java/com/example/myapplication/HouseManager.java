@@ -19,8 +19,11 @@ public class HouseManager extends AppCompatActivity {
         setContentView(R.layout.activity_house_manager);
     }
 
-    public void toMain(View v){
-        startActivity(new Intent(this, MainActivity.class));
+    public void toMain(View v) {
+        Intent i = new Intent(this, MainActivity.class);
+        Bundle extras = new Bundle();
+        extras.putString("PREVIOUS_ACTIVITY", "house_manager");
+        startActivity(i);
     }
     public void toBridgette(View v){
         startActivity(new Intent(this, Bridgette.class));
