@@ -17,6 +17,21 @@
     android:paddingBottom="60dp"
     tools:context=".new_chore_activity">
 
+    <EditText
+        android:id="@+id/dateInput"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/DescriptionInput"
+        android:layout_alignTop="@id/dateText"
+        android:autofillHints=""
+        android:backgroundTint="#FFFFFF"
+        android:hint="When?"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        tools:layout_alignEnd="@id/taskNameInput"
+        tools:layout_below="@id/DescriptionInput" />
+
     <Spinner
         android:id="@+id/frequencySelector"
         android:layout_width="match_parent"
@@ -35,10 +50,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="127dp"
+        android:layout_marginStart="130dp"
         android:layout_marginTop="190dp"
-        android:layout_marginEnd="133dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="30dp"
         android:onClick="toMain"
         android:text="@string/done" />
 
@@ -74,6 +89,21 @@
         tools:layout_below="@id/DescriptionInput" />
 
     <EditText
+        android:id="@+id/AssigneeInput"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/DescriptionInput"
+        android:layout_alignTop="@id/AssigneeText"
+        android:autofillHints=""
+        android:backgroundTint="#FFFFFF"
+        android:hint="Who's task is it?"
+        android:inputType="textShortMessage"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        tools:layout_alignEnd="@id/taskNameInput"
+        tools:layout_below="@id/DescriptionInput" />
+
+    <EditText
         android:id="@+id/taskNameInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -82,7 +112,6 @@
         android:layout_marginEnd="20dp"
         android:autofillHints=""
         android:backgroundTint="#FFFFFF"
-        android:editable="false"
         android:hint="@string/insert_chore_name"
         android:inputType="textShortMessage"
         android:textColor="#FFFFFF"
@@ -159,37 +188,6 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:text="DATE:" />
-
-    <TextView
-        android:id="@+id/dateInput"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignWithParentIfMissing="false"
-        android:layout_below="@id/dateText"
-        android:layout_alignStart="@id/DescriptionInput"
-        android:layout_alignEnd="@id/DescriptionInput"
-        android:layout_marginTop="40dp"
-        android:clickable="false"
-        android:text="@string/date_input" />
-
-    <Button
-        android:id="@+id/dateInputBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_alignStart="@id/DescriptionInput"
-        android:layout_alignTop="@id/dateText"
-        android:layout_alignEnd="@id/DescriptionInput"
-        android:text="@string/date_input" />
-
-    <Spinner
-        android:id="@+id/assigneeInput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@id/DescriptionInput"
-        android:layout_alignTop="@id/AssigneeText"
-        android:layout_alignEnd="@id/DescriptionInput"
-        android:contextClickable="true"
-        android:entries="@array/house_list" />
 
 
 </RelativeLayout>

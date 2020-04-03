@@ -48,7 +48,7 @@
 
             <CheckBox
                 android:id="@+id/checkBox9"
-                android:layout_width="100dp"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
@@ -82,7 +82,7 @@
 
             <CheckBox
                 android:id="@+id/checkBox8"
-                android:layout_width="100dp"
+                android:layout_width="136dp"
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
@@ -116,7 +116,7 @@
 
             <CheckBox
                 android:id="@+id/checkBox"
-                android:layout_width="100dp"
+                android:layout_width="136dp"
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
@@ -150,7 +150,7 @@
 
             <CheckBox
                 android:id="@+id/checkBox2"
-                android:layout_width="100dp"
+                android:layout_width="107dp"
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
@@ -184,7 +184,7 @@
 
             <CheckBox
                 android:id="@+id/checkBox3"
-                android:layout_width="100dp"
+                android:layout_width="53dp"
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
@@ -218,7 +218,7 @@
 
             <CheckBox
                 android:id="@+id/checkBox4"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
@@ -251,7 +251,7 @@
 
             <CheckBox
                 android:id="@+id/checkBox5"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
@@ -278,7 +278,7 @@
         android:layout_marginStart="144dp"
         android:layout_marginTop="88dp"
         android:background="#00FFFFFF"
-        android:onClick="toMain"
+        android:onClick="toYou"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

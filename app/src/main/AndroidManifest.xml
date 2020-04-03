@@ -40,7 +40,7 @@
             android:label="@string/title_activity_house_manager"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="login"
+            android:name=".ui.login.LoginActivity"
             android:label="@string/title_activity_login">
         </activity>
         <activity

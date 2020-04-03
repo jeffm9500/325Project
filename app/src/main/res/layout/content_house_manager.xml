@@ -26,7 +26,6 @@
                     android:id="@+id/hm_housemate1pic"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_marginStart="2dp"
                     tools:srcCompat="@tools:sample/avatars" />
 
                 <TextView
@@ -48,7 +47,6 @@
                     android:id="@+id/imageView3"
                     android:layout_width="115dp"
                     android:layout_height="match_parent"
-                    android:layout_marginStart="2dp"
                     android:clickable="true"
                     tools:srcCompat="@tools:sample/avatars" />
 
@@ -69,7 +67,6 @@
                     android:id="@+id/imageView4"
                     android:layout_width="115dp"
                     android:layout_height="match_parent"
-                    android:layout_marginStart="2dp"
                     tools:srcCompat="@tools:sample/avatars" />
 
                 <TextView
@@ -89,7 +86,6 @@
                     android:id="@+id/imageView5"
                     android:layout_width="115dp"
                     android:layout_height="match_parent"
-                    android:layout_marginStart="2dp"
                     tools:srcCompat="@tools:sample/avatars" />
 
                 <TextView
@@ -109,7 +105,6 @@
                     android:id="@+id/imageView6"
                     android:layout_width="115dp"
                     android:layout_height="match_parent"
-                    android:layout_marginStart="2dp"
                     tools:srcCompat="@tools:sample/avatars" />
 
                 <TextView
@@ -129,7 +124,6 @@
                     android:id="@+id/imageView7"
                     android:layout_width="115dp"
                     android:layout_height="match_parent"
-                    android:layout_marginStart="2dp"
                     tools:srcCompat="@tools:sample/avatars" />
 
                 <TextView

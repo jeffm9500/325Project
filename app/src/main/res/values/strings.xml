@@ -43,23 +43,12 @@
     <string name="due">Due</string>
     <string name="title_activity_bridgette">Bridgette</string>
     <string name="title_activity_main_all">main_all</string>
-    <string name="date_input">Select Date</string>
+
 
     <string-array name="frequency_array">
         <item>Daily</item>
         <item>Weekly</item>
         <item>Bi-Weekly</item>
         <item>Monthly</item>
-    </string-array>
-
-
-    <string-array name="house_list">
-        <item>Bridgette</item>
-        <item>Carlos</item>
-        <item>Christine</item>
-        <item>Colin</item>
-        <item>Jony</item>
-        <item>Malcolm</item>
-        <item>Timmy</item>
     </string-array>
 </resources>

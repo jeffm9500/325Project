@@ -25,11 +25,8 @@ public class main_all extends AppCompatActivity {
     public void toCalendar(View v){
         startActivity(new Intent(this, activity_calendar.class));
     }
-    public void toMain(View v) {
-        Intent i = new Intent(this, MainActivity.class);
-        Bundle extras = new Bundle();
-        extras.putString("PREVIOUS_ACTIVITY", "main_all");
-        startActivity(i);
+    public void toYou(View v){
+        startActivity(new Intent(this, MainActivity.class));
     }
     public void toNewChore(View v){
         startActivity(new Intent(this, new_task.class));
