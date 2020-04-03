@@ -3,7 +3,6 @@ package com.example.myapplication;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.myapplication.ui.login.LoginActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -28,8 +27,5 @@ public class HouseManager extends AppCompatActivity {
     }
     public void toBridgette(View v){
         startActivity(new Intent(this, Bridgette.class));
-    }
-    public void toLogin(View v){
-        startActivity(new Intent(this, LoginActivity.class));
     }
 }
